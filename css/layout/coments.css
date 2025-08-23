@@ -1,0 +1,96 @@
+#coments {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.coments-title {
+    color: #22343D;
+    font-size: 34px;
+    text-align: center;
+}
+
+.coments-desc {
+    font-size: 18px;
+    color: #22343D;
+    margin-top: 8px;
+    text-align: center;
+}
+.coments-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.coments-card-img{
+    padding-left: 28px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.coments-title {
+    color: #22343D;
+    font-size: 34px;
+}
+
+.coments-desc {
+    color: #22343D;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+
+.coments-card {
+    width: 327px;
+    height: 240px;
+    background-color: #fff;
+    padding-right: 15px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 3px grey;
+}
+
+
+.coments-card-desc {
+    font-size: 16px;
+    color: #737373;
+    padding-left: 24px;
+    padding-bottom: 40px;
+    transition: 0.5s;
+}
+
+.coment-humans-img{
+    padding-left: 24px;
+    margin-bottom: 23px;
+}
+
+.comentators{
+    display: flex;
+    align-items: center;
+}
+
+.coments-card-title{
+    margin-bottom: 5px;
+    padding-left: 14px;
+    color: #02897A;
+    font-weight: 600;
+}
+
+.coments-card_desc{
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 14px;
+    margin-bottom: 23px;
+}
+
+@media (max-width:995px) {
+    .coments-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .coments-title,
+    .coments-desc {
+        text-align: center;
+    }
+}

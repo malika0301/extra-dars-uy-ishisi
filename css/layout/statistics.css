@@ -1,0 +1,68 @@
+#statistics {
+    padding-bottom: 150px;
+}
+
+.statistics-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+    margin-top: 57px;
+}
+
+.statistics-center {
+    color: #22343D;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+
+.statistics-card-title {
+    color: #22343D;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.statistics-card-desc {
+    margin-top: 13px;
+    color: #22343D;
+}
+
+.statistics-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 175px;
+    height: 53px;
+    background-color: #02897A;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+@media (max-width:950px) {
+    .statistics-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .statistics-card {
+        text-align: center;
+    }
+
+    #statistics {
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width:800px) {
+    .statistics-card-title {
+        font-size: 25px;
+    }
+
+    .statistics-card-desc {
+        font-size: 14px;
+    }
+}

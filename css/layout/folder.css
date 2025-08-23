@@ -1,0 +1,71 @@
+#folder {
+    padding-top: 103px;
+    padding-bottom: 103px;
+}
+
+.folder-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.folder-infos-title {
+    color: #22343D;
+    font-size: 40px;
+}
+
+.folder-infos-desc {
+    margin-top: 20px;
+    color: #22343D;
+}
+
+.folder-img {
+    margin-left: 84px;
+    max-width: 600px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.folder-title {
+    font-weight: 600;
+    margin-top: 20px;
+    color: #22343D;
+}
+
+@media (max-width:960px) {
+    .folder-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .folder-infos-title,
+    .folder-infos-desc,
+    .folder-title {
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width:800px) {
+    #folder {
+        padding-top: 10px;
+    }
+
+    .folder-infos-title {
+        font-size: 25px;
+    }
+
+    .folder-infos-desc {
+        font-size: 14px;
+    }
+
+    .folder-title {
+        font-size: 14px;
+    }
+  .costumers-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}

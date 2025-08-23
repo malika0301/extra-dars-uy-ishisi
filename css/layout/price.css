@@ -1,0 +1,133 @@
+.price {
+    margin-top: 150px;
+}
+
+.price-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.price-title {
+    color: #22343D;
+    font-size: 34px;
+    text-align: center;
+}
+
+.price-desc {
+    color: #22343D;
+    margin-top: 8px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.price-card {
+    width: 322px;
+    height: 456px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 3px grey;
+    transition: 0.7s;
+}
+
+.price-card-title {
+    font-weight: 700;
+    color: #22343D;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    transition: 0.5s;
+}
+
+
+.price-card-desc {
+    font-weight: 500;
+    color: #22343D;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.5s;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.price-card-per {
+    font-size: 76px;
+    text-align: center;
+    color: #02897A;
+    margin-bottom: 35px;
+    transition: 0.5s;
+}
+
+.price-card-per sub {
+    margin-left: -30px;
+    font-size: 15px;
+    color: #AFAFAF;
+    transition: 0.5s;
+}
+
+.price-card-per sup {
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.price-list li {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.price-btn {
+    font-size: 18px;
+    width: 139px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: #02897A;
+    color: white;
+    display: block;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 38px;
+    transition: 0.5s;
+}
+
+.price-card:hover{
+    color: white;
+    background-color: #02897A;
+}
+
+.price-card:hover .price-card-per{
+    color: white;
+}
+
+.price-card:hover .price-btn{
+    color: #02897A;
+    background-color: white;
+}
+
+.price-card:hover .price-card-desc{
+    color: white;
+}
+
+.price-card:hover .price-card-title{
+    color: white;
+}
+
+.price-card:hover .price-card-per sub{
+    color: white;
+}
+
+@media (max-width:995px) {
+    .price-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .price-title,
+    .price-desc {
+        text-align: center;
+    }
+}
