@@ -15,6 +15,7 @@
     margin-top: 8px;
     text-align: center;
 }
+
 .coments-cards {
     display: flex;
     align-items: center;
@@ -22,7 +23,7 @@
     gap: 32px;
 }
 
-.coments-card-img{
+.coments-card-img {
     padding-left: 28px;
     padding-top: 28px;
     padding-bottom: 28px;
@@ -59,24 +60,24 @@
     transition: 0.5s;
 }
 
-.coment-humans-img{
+.coment-humans-img {
     padding-left: 24px;
     margin-bottom: 23px;
 }
 
-.comentators{
+.comentators {
     display: flex;
     align-items: center;
 }
 
-.coments-card-title{
+.coments-card-title {
     margin-bottom: 5px;
     padding-left: 14px;
     color: #02897A;
     font-weight: 600;
 }
 
-.coments-card_desc{
+.coments-card_desc {
     font-size: 14px;
     font-weight: 500;
     padding-left: 14px;

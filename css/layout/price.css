@@ -94,29 +94,29 @@
     transition: 0.5s;
 }
 
-.price-card:hover{
+.price-card:hover {
     color: white;
     background-color: #02897A;
 }
 
-.price-card:hover .price-card-per{
+.price-card:hover .price-card-per {
     color: white;
 }
 
-.price-card:hover .price-btn{
+.price-card:hover .price-btn {
     color: #02897A;
     background-color: white;
 }
 
-.price-card:hover .price-card-desc{
+.price-card:hover .price-card-desc {
     color: white;
 }
 
-.price-card:hover .price-card-title{
+.price-card:hover .price-card-title {
     color: white;
 }
 
-.price-card:hover .price-card-per sub{
+.price-card:hover .price-card-per sub {
     color: white;
 }
 

@@ -2,7 +2,7 @@
     margin-top: 150px;
 }
 
-.content-cards{
+.content-cards {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,14 +47,14 @@ span {
 }
 
 .content-card-desc {
-    font-size:24px ;
+    font-size: 24px;
     color: #22343D;
     padding-left: 24px;
     padding-bottom: 40px;
     transition: 0.5s;
 }
 
-.dots{
+.dots {
     margin-top: 50px;
     margin-bottom: 50px;
     display: block;
@@ -62,17 +62,18 @@ span {
     margin-right: auto;
 }
 
-.content-card:hover .content-card-desc{
+.content-card:hover .content-card-desc {
     color: #02897A;
 }
 
 @media (max-width:995px) {
-    .content-cards{
+    .content-cards {
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .contents-title , .content-desc{
+    .contents-title,
+    .content-desc {
         text-align: center;
     }
 }

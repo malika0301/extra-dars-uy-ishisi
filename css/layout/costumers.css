@@ -76,9 +76,10 @@
     .costumers-title {
         font-size: 14px;
     }
-  .costumers-img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-  }
+
+    .costumers-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
